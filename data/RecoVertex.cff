@@ -7,6 +7,6 @@ include "TrackingTools/TransientTrack/data/TransientTrackBuilder.cfi"
 include "RecoVertex/PrimaryVertexProducer/data/OfflinePrimaryVerticesFromCTFTracks.cfi"
 include "RecoVertex/PrimaryVertexProducer/data/OfflinePrimaryVerticesFromRSTracks.cfi"
 
-sequence vertexreco = {
-  offlinePrimaryVerticesFromCTFTracks, offlinePrimaryVerticesFromRSTracks 
-}
+sequence vertexreco = {offlinePrimaryVerticesFromCTFTracks}
+sequence vertexreco_rs = {offlinePrimaryVerticesFromRSTracks}
+#
