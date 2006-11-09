@@ -1,22 +1,22 @@
 block RecoVertexFEVT = {
   untracked vstring outputCommands = {
-	keep " *_offlinePrimaryVerticesFromCTFTracks_*_*",
-	keep " *_offlinePrimaryVerticesFromRSTracks_*_*"
+	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesFromRSTracks_*_*"
   }		
 }	
 
 #RECO content
 block RecoVertexRECO = {
   untracked vstring outputCommands = {
-	keep " *_offlinePrimaryVerticesFromCTFTracks_*_*",
-	keep " *_offlinePrimaryVerticesFromRSTracks_*_*"
+	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesFromRSTracks_*_*"
   }		
 }	
 
 #AOD content
 block RecoVertexAOD = {
   untracked vstring outputCommands = {
-	keep " *_offlinePrimaryVerticesFromCTFTracks_*_*",
-	keep " *_offlinePrimaryVerticesFromRSTracks_*_*"
+	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesFromRSTracks_*_*"
   }		
 }	
