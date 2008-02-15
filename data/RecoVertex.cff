@@ -4,9 +4,7 @@
 include "MagneticField/Engine/data/volumeBasedMagneticField.cfi"
 
 include "TrackingTools/TransientTrack/data/TransientTrackBuilder.cfi"
-include "RecoVertex/PrimaryVertexProducer/data/OfflinePrimaryVerticesFromCTFTracks.cfi"
-include "RecoVertex/PrimaryVertexProducer/data/OfflinePrimaryVerticesFromRSTracks.cfi"
+include "RecoVertex/PrimaryVertexProducer/data/OfflinePrimaryVertices.cfi"
 
-sequence vertexreco = {offlinePrimaryVerticesFromCTFTracks}
-sequence vertexreco_rs = {offlinePrimaryVerticesFromRSTracks}
+sequence vertexreco = {offlinePrimaryVertices}
 #
