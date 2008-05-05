@@ -1,7 +1,7 @@
 block RecoVertexFEVT = {
   untracked vstring outputCommands = {
 	"keep  *_offlinePrimaryVertices_*_*",
-	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesWithBS_*_*",
         "keep  *_nuclearInteractionMaker_*_*"
   }
 }
@@ -10,7 +10,7 @@ block RecoVertexFEVT = {
 block RecoVertexRECO = {
   untracked vstring outputCommands = {
         "keep  *_offlinePrimaryVertices_*_*",
-	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesWithBS_*_*",
         "keep  *_nuclearInteractionMaker_*_*"
   }
 }
@@ -19,7 +19,7 @@ block RecoVertexRECO = {
 block RecoVertexAOD = {
   untracked vstring outputCommands = {
         "keep  *_offlinePrimaryVertices_*_*",
-	"keep  *_offlinePrimaryVerticesFromCTFTracks_*_*",
+	"keep  *_offlinePrimaryVerticesWithBS_*_*",
         "keep  *_nuclearInteractionMaker_*_*"
    }
 }
